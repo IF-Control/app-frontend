@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "monitore-covid-ifsp",
+    "slug": "monitore-covid-ifsp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
