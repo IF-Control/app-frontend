@@ -1,5 +1,4 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
 
 // Tema
 import AppLoading from 'expo-app-loading';
@@ -12,7 +11,6 @@ import { MerriweatherSans_300Light } from "@expo-google-fonts/merriweather-sans"
 import { Sarabun_400Regular, Sarabun_600SemiBold } from "@expo-google-fonts/sarabun"
 import Routes from './src/routes';
 import { AuthProvider } from './src/contexts/AuthContext';
-import { CheckProvider } from './src/contexts/CheckContext';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -29,9 +27,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <AuthProvider>
-        <CheckProvider>
-          <Routes />
-        </CheckProvider>
+        <Routes />
       </AuthProvider>
     </ThemeProvider>
   );

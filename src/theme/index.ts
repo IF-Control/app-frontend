@@ -1,7 +1,5 @@
 export default {
     COLORS: {
-        // Nome: COVID-19 Control (IFSP COVID-19 Tracker?)
-        // Logotipo: assets/imga/logotype.svg
         BACKGROUND_900: '#FFFFFF',
         BACKGROUND_800: '#FAFAFA',
         BACKGROUND_700: '#F8F8F8',
@@ -13,7 +11,6 @@ export default {
         PRIMARY_900: '#0C250C',
         PRIMARY_800: '#005600',
         PRIMARY_700: '#2F9E41',
-        // PRIMARY_650: 'rgba(47, 158, 65, .7)',
         PRIMARY_600: '#AADCB2',
 
         SECONDARY_900: '#414141',
@@ -28,6 +25,5 @@ export default {
         TEXT_BOLD: 'Sarabun_600SemiBold'
     },
     SPACING_SIZES: {
-        // Espaçamentos
     }
 }
